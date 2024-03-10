@@ -24,6 +24,7 @@ function App() {
           </div>
           <div className='menu-hambuger'>
             <FontAwesomeIcon
+              style={{color:"#0ef"}}
               icon={faBars} />
           </div>
           <ul className="menu">
@@ -104,7 +105,6 @@ function App() {
 
         <div className="home-profile">
           <img
-            src={Profile}
             className="img-profile"
           />
         </div>

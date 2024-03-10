@@ -83,7 +83,14 @@ nav {
   font-weight: 500;
   font-family: "Share Tech Mono", monospace;
   transition: 0.2s all ease-in-out;
-
-  color: rgba(0, 238, 255);
+  color: #FFF;
   font-family: "Share Tech Mono", monospace;
+}
+
+.menu a:hover {
+  color: #0ef;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
