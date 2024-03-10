@@ -1,0 +1,72 @@
+.home {
+  background-color: black;
+  height: 100vh;
+}
+
+.home-intro {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-gap: 50px;
+  gap: 50px;
+  justify-content: center;
+  /* margin: 40px; */
+  min-height: 100vh;
+}
+
+.home-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-description h1 {
+  color: #fff;
+  padding: 10px 0px 10px 0px;
+  line-height: 1.5;
+  font-weight: 150;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.home-description h1:hover {
+  color: #0ef;
+  text-shadow: 0px 0px 30px #fdec6e;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.home-profile {
+  width: 300px;
+  height: 300px;
+}
+
+.img-profile {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.box {
+  background: black;
+  border: 1px solid #333;
+  border-radius: 20px;
+  color: #fff;
+  height: 100%;
+  position: relative;
+  transition: .5s;
+  overflow: hidden;
+}
+
+.box:hover {
+  color: #0ef;
+  border: 1px solid #0ef;
+  box-shadow: 0 0 15px #0ef, inset 0 0 5px #0ef;
+}
