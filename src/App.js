@@ -1,11 +1,13 @@
 import {
-  faBars
+  faBars,
+  faEnvelope
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import './assets/header.css';
 import './assets/app.css';
 import './assets/home.css';
+import './assets/footer.css';
 
 import Profile from './assets/profile.JPG';
 
@@ -116,7 +118,22 @@ function App() {
 
       {/* Footer Start */}
       <footer className='footer'>
-
+        <div className="social-icon">
+          <ul></ul>
+        </div>
+        <div className="copyright">
+          <h3>Copyright © 2024</h3>
+          <h3>Developed by Kang Jae Seong</h3>
+        </div>
+        <div className="contact">
+          <h3>
+            <a href="mailto:wotjd2386@gmail.com">
+              <FontAwesomeIcon icon={faEnvelope} />
+              &nbsp;
+              wotjd2386@gmail.com
+            </a>
+          </h3>
+        </div>
       </footer>
       {/* Footer End */}
     </div>
