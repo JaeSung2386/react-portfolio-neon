@@ -12,6 +12,7 @@ import './assets/styles/header.css';
 import './assets/styles/app.css';
 import './assets/styles/home.css';
 import './assets/styles/footer.css';
+import './assets/styles/line.css';
 
 import Profile from './assets/imgs/profile.JPG';
 
@@ -78,25 +79,20 @@ function App() {
       </div>
       {/* Home End */}
 
-      {/* About Start */}
-      <div className="home">
-        <div className="home-intro">
-          <div className="box">
-            <h1>안녕하세요.</h1>
-            <h1>FrontEnd 개발자 강재성입니다.</h1>
-            <h2>네온 스타일을 곁들인 개인 포트폴리오 사이트입니다.</h2>
-          </div>
-
-          <div className="box">
-            <div className="home-profile">
-              <img
-                src={Profile}
-                className="img-profile"
-              />
-            </div>
-          </div>
-        </div>
+      {/* line Start */}
+      {/* https://codepen.io/nickpettit/pen/nOOdme */}
+      <div className="line">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
+      {/* line End */}
+
+      {/* About Start */}
       {/* About End */}
 
       {/* Work Start */}
