@@ -9,8 +9,9 @@ import './assets/styles/footer.css';
 import './assets/styles/text.css';
 
 import Home from './components/Home';
-import Line from './components/Line';
+import About from './components/About';
 import Footer from './components/Footer';
+import Line from './components/Line';
 
 function App() {
   return (
@@ -63,7 +64,12 @@ function App() {
       {/* line End */}
 
       {/* About Start */}
+      <About />
       {/* About End */}
+
+      {/* line Start */}
+      <Line />
+      {/* line End */}
 
       {/* Work Start */}
       <div className="home">
