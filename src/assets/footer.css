@@ -14,6 +14,11 @@ a {
   color: #fff;
 }
 
+.footer svg {
+  width: 20px;
+  height: 20px;
+}
+
 .footer a:hover {
   color: #0ef;
   -moz-transition: all 0.2s ease-in;
@@ -22,8 +27,17 @@ a {
   transition: all 0.2s ease-in;
 }
 
-.footer .social-icon {
+.footer .footer-social-icons {
   width: 33%;
+}
+
+.footer .footer-social-icons .social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .footer-social-icons .social-icons li{
+  padding: 0px 20px 0px 20px;
 }
 
 .footer .copyright {

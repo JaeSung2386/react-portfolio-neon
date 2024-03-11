@@ -2,6 +2,10 @@ import {
   faBars,
   faEnvelope
 } from "@fortawesome/free-solid-svg-icons";
+import { 
+  faGithub,
+  faWordpressSimple
+} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import './assets/header.css';
@@ -117,22 +121,33 @@ function App() {
       {/* Skils End */}
 
       {/* Footer Start */}
-      <footer className='footer'>
-        <div className="social-icon">
-          <ul></ul>
-        </div>
-        <div className="copyright">
-          <h3>Copyright © 2024</h3>
-          <h3>Developed by Kang Jae Seong</h3>
-        </div>
-        <div className="contact">
-          <h3>
-            <a href="mailto:wotjd2386@gmail.com">
-              <FontAwesomeIcon icon={faEnvelope} />
-              &nbsp;
-              wotjd2386@gmail.com
-            </a>
-          </h3>
+      <footer>
+        <div className="footer">
+          <div className="copyright">
+            <h3>Developed by Kang Jae Seong</h3>
+          </div>
+          <div className="copyright">
+            <h3>Copyright © 2024</h3>
+          </div>
+          <div className="footer-social-icons">
+            <ul className="social-icons">
+              <li>
+                <a href="mailto:wotjd2386@gmail.com">
+                  <FontAwesomeIcon icon={faEnvelope} />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/JaeSung2386" target="_blank">
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
+              </li>
+              <li>
+                <a href="https://webveloper.dev/" target="_blank">
+                  <FontAwesomeIcon icon={faWordpressSimple} />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </footer>
       {/* Footer End */}
