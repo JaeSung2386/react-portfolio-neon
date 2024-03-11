@@ -1,11 +1,6 @@
 import {
-  faBars,
-  faEnvelope
+  faBars
 } from "@fortawesome/free-solid-svg-icons";
-import {
-  faGithub,
-  faWordpressSimple
-} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import './assets/styles/header.css';
@@ -14,7 +9,8 @@ import './assets/styles/footer.css';
 import './assets/styles/text.css';
 
 import Home from './components/Home';
-import Line from './components/Line'
+import Line from './components/Line';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -91,7 +87,8 @@ function App() {
       {/* Skils End */}
 
       {/* Footer Start */}
-      <footer>
+      <Footer />
+      {/* <footer>
         <div className="footer">
           <div className="copyright">
             <h3>Developed by Kang Jae Seong</h3>
@@ -119,7 +116,7 @@ function App() {
             </ul>
           </div>
         </div>
-      </footer>
+      </footer> */}
       {/* Footer End */}
     </div>
   );
