@@ -2,7 +2,7 @@ import {
   faBars,
   faEnvelope
 } from "@fortawesome/free-solid-svg-icons";
-import { 
+import {
   faGithub,
   faWordpressSimple
 } from '@fortawesome/free-brands-svg-icons';
@@ -13,6 +13,7 @@ import './assets/styles/app.css';
 import './assets/styles/home.css';
 import './assets/styles/footer.css';
 import './assets/styles/line.css';
+import './assets/styles/text.css';
 
 import Profile from './assets/imgs/profile.JPG';
 
@@ -29,7 +30,7 @@ function App() {
           </div>
           <div className='menu-hambuger'>
             <FontAwesomeIcon
-              style={{color:"#0ef"}}
+              style={{ color: "#0ef" }}
               icon={faBars} />
           </div>
           <ul className="menu">
@@ -64,7 +65,7 @@ function App() {
           <div className="home-description">
             <h1>안녕하세요.</h1>
             <h1>FrontEnd 개발자 강재성입니다.</h1>
-            <h1>네온 스타일을 곁들인 개인 포트폴리오 사이트입니다.</h1>
+            <h1><span className="neon-text">Neon Style</span>을 곁들인 개인 포트폴리오 사이트입니다.</h1>
           </div>
 
           <div className="box">
