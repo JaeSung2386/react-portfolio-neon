@@ -8,12 +8,12 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import './assets/header.css';
-import './assets/app.css';
-import './assets/home.css';
-import './assets/footer.css';
+import './assets/styles/header.css';
+import './assets/styles/app.css';
+import './assets/styles/home.css';
+import './assets/styles/footer.css';
 
-import Profile from './assets/profile.JPG';
+import Profile from './assets/imgs/profile.JPG';
 
 function App() {
   return (
