@@ -10,13 +10,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import './assets/styles/header.css';
 import './assets/styles/app.css';
-import './assets/styles/home.css';
 import './assets/styles/footer.css';
-import './assets/styles/line.css';
 import './assets/styles/text.css';
 
-import Profile from './assets/imgs/profile.jpg';
 import Home from './components/Home';
+import Line from './components/Line'
 
 function App() {
   return (
@@ -65,16 +63,7 @@ function App() {
       {/* Home End */}
 
       {/* line Start */}
-      {/* https://codepen.io/nickpettit/pen/nOOdme */}
-      <div className="line">
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </div>
+      <Line />
       {/* line End */}
 
       {/* About Start */}
