@@ -9,7 +9,7 @@ import './assets/styles/footer.css';
 import './assets/styles/text.css';
 
 import Home from './components/Home';
-import About from './components/About';
+import Work from './components/Work';
 import Footer from './components/Footer';
 import Line from './components/Line';
 
@@ -64,14 +64,6 @@ function App() {
       {/* line End */}
 
       {/* About Start */}
-      <About />
-      {/* About End */}
-
-      {/* line Start */}
-      <Line />
-      {/* line End */}
-
-      {/* Work Start */}
       <div className="home">
         <div>
           <h1>안녕하세요.</h1>
@@ -85,6 +77,14 @@ function App() {
           />
         </div>
       </div>
+      {/* About End */}
+
+      {/* line Start */}
+      <Line />
+      {/* line End */}
+
+      {/* Work Start */}
+      <Work />
 
       {/* Work End */}
 

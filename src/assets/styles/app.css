@@ -4,7 +4,6 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  background-color: black;
 }
 
 html {
@@ -14,4 +13,5 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  background-color: black;
 }
