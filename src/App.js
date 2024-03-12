@@ -10,6 +10,7 @@ import './assets/styles/text.css';
 
 import Home from './components/Home';
 import Work from './components/Work';
+import Blog from './components/Blog';
 import Footer from './components/Footer';
 import Line from './components/Line';
 
@@ -50,20 +51,28 @@ function App() {
                 Skils
               </a>
             </li>
+            <li>
+              <a href="#blog">
+                Blog
+              </a>
+            </li>
           </ul>
         </nav>
       </header>
       {/* Header End */}
 
       {/* Home Start */}
-      <Home />
+      <div className="container">
+        <Home />
+      </div>
       {/* Home End */}
 
-      {/* line Start */}
-      <Line />
-      {/* line End */}
+      <div className="container">
+        <Line />
+      </div>
 
       {/* About Start */}
+      <div className="container">
       <div className="home">
         <div>
           <h1>안녕하세요.</h1>
@@ -77,20 +86,36 @@ function App() {
           />
         </div>
       </div>
+      </div>
       {/* About End */}
 
-      {/* line Start */}
-      <Line />
-      {/* line End */}
+      <div className="container">
+        <Line />
+      </div>
 
       {/* Work Start */}
-      <Work />
-
+      <div className="container">
+        <Work />
+      </div>
       {/* Work End */}
+
+      <div className="container">
+        <Line />
+      </div>
 
       {/* Skils Start */}
 
       {/* Skils End */}
+
+      <div className="container">
+        <Line />
+      </div>
+
+      {/* Blog Start */}
+      <div className="container">
+        <Blog />
+      </div>
+      {/* Blog End */}
 
       {/* Footer Start */}
       <Footer />

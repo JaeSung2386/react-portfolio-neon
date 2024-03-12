@@ -94,3 +94,11 @@ nav {
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
+
+.container {
+  width: 768px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
