@@ -48,6 +48,11 @@ const index = () => {
           </div>
         </div>
       </div>
+
+      {/* <div 
+        style={{padding: "10px 0px 10px 0px"}}
+      /> */}
+
       <div className="box">
         <div style={{display: "flex",
             padding: "10px"}}>
