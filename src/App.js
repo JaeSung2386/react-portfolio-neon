@@ -51,11 +51,6 @@ function App() {
                 Skils
               </a>
             </li>
-            <li>
-              <a href="#blog">
-                Blog
-              </a>
-            </li>
           </ul>
         </nav>
       </header>
