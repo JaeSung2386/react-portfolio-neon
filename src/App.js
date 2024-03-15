@@ -13,7 +13,7 @@ import Work from './components/Work';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
 import Line from './components/Line';
-import Skils from './components/Skils';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -49,7 +49,7 @@ function App() {
             </li>
             <li>
               <a href="#skills">
-                Skils
+                Skills
               </a>
             </li>
             <li>
@@ -106,7 +106,7 @@ function App() {
 
       {/* Skils Start */}
       <div className="container">
-        <Skils />
+        <Skills />
       </div>
       {/* Skils End */}
 

@@ -13,6 +13,7 @@ import TistoryLogo from '../../assets/imgs/tistory_logo.png';
 const index = () => {
   return (
     <div className="blog">
+    {/* https://www.npmjs.com/package/react-tooltip */}
       <div className="box">
         <div style={{
             display: "flex",
@@ -21,7 +22,7 @@ const index = () => {
             }}>
           <div>
             <img
-              src={NaverBlogLogo}
+              src={TistoryLogo}
               style={{width: "150px", height: "150px"}}
             />
           </div>
@@ -31,17 +32,18 @@ const index = () => {
             flexDirection: "column"
             }}>
             <h1>
-              Naver
+              Tistory
             </h1>
             <div style={{
-              height: "100%",
+              height: "100%"
             }}>
-              <p style={{color: "#666", padding:"10px 0px 10px 0px"}}>2023-02 ~ 현재 / 포스팅 수 : 42개 / 누적 방문수 : 500명 이상</p>
-              <h4 style={{lineHeight: "1.5"}}>독서와 재테크에 관심이 많아 시작한 블로그입니다. 가계부, 주식 일지, 독서 리뷰 위주로 포스팅합니니다.</h4>
+              <p style={{color: "#666", padding:"10px 0px 10px 0px"}}>2020-05 ~ 2023-09 / 포스팅 수 : 787개 / 누적 방문수 : 300만 명 이상</p>
+              <h4 style={{lineHeight: "1.5"}}>취업 후 이때까지 배운 지식들을 기록하기 위해 시작한 블로그입니다. 주로 C#, Java, JavaScript, React와 관련된 내용을 포스팅합니다. 현재 블로그 운영을 멈춘 상태이지만 일일 4천명 이상 방문하고 있습니다.</h4>
             </div>
           </div>
         </div>
       </div>
+
       <div className="box">
         <div style={{
             display: "flex",
@@ -76,7 +78,6 @@ const index = () => {
         style={{padding: "10px 0px 10px 0px"}}
       /> */}
 
-      {/* https://www.npmjs.com/package/react-tooltip */}
       <div className="box">
         <div style={{
             display: "flex",
@@ -85,7 +86,7 @@ const index = () => {
             }}>
           <div>
             <img
-              src={TistoryLogo}
+              src={NaverBlogLogo}
               style={{width: "150px", height: "150px"}}
             />
           </div>
@@ -95,13 +96,13 @@ const index = () => {
             flexDirection: "column"
             }}>
             <h1>
-              Tistory
+              Naver
             </h1>
             <div style={{
-              height: "100%"
+              height: "100%",
             }}>
-              <p style={{color: "#666", padding:"10px 0px 10px 0px"}}>2020-05 ~ 2023-09 / 포스팅 수 : 787개 / 누적 방문수 : 300만 명 이상</p>
-              <h4 style={{lineHeight: "1.5"}}>취업 후 이때까지 배운 지식들을 기록하기 위해 시작한 블로그입니다. 주로 C#, Java, JavaScript, React와 관련된 내용을 포스팅합니다. 현재 블로그 운영을 멈춘 상태이지만 일일 4천명 이상 방문하고 있습니다.</h4>
+              <p style={{color: "#666", padding:"10px 0px 10px 0px"}}>2023-02 ~ 현재 / 포스팅 수 : 42개 / 누적 방문수 : 500명 이상</p>
+              <h4 style={{lineHeight: "1.5"}}>독서와 재테크에 관심이 많아 시작한 블로그입니다. 가계부, 주식 일지, 독서 리뷰 위주로 포스팅합니니다.</h4>
             </div>
           </div>
         </div>

@@ -17,6 +17,7 @@
     "react-chrono": "^2.6.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-sweet-progress": "^1.1.2",
     "react-tooltip": "^5.26.3",
     "web-vitals": "^2.1.4"
   },

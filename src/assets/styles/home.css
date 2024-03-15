@@ -53,8 +53,8 @@
 }
 
 .box {
-  background: black;
-  border: 1px solid #333;
+  background: rgba(33, 37, 41, .8);
+  border: 1px solid transparent;
   border-radius: 20px;
   color: #fff;
   height: 100%;
