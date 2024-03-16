@@ -3,6 +3,7 @@ import './assets/styles/app.css';
 import './assets/styles/footer.css';
 import './assets/styles/text.css';
 
+import TopScrollBar from "./components/TopScrollBar";
 import Header from './components/Header';
 import Home from './components/Home';
 import Work from './components/Work';
@@ -14,6 +15,7 @@ import Skills from './components/Skills';
 function App() {
   return (
     <div className="App">
+      <TopScrollBar />
       {/* Header Start */}
       <Header />
       {/* Header End */}
