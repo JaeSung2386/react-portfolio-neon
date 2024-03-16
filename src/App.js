@@ -79,7 +79,7 @@ function App() {
       {/* Blog End */}
 
       {/* Footer Start */}
-      <Footer />
+      < Footer />
       {/* Footer End */}
     </div>
   );

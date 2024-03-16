@@ -1,10 +1,10 @@
 .footer {
   background: black;
   border-top: 1px solid #0ef;
-  height: 80px;
   font-family: "Share Tech Mono", monospace;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
   align-items: center;
   padding: 20px 30px;
   list-style: none;
@@ -28,25 +28,20 @@ a {
   transition: all 0.2s ease-in;
 }
 
-.footer .footer-social-icons {
-  width: 33%;
-}
 
 .footer .footer-social-icons .social-icons {
   display: flex;
   justify-content: center;
 }
 
-.footer .footer-social-icons .social-icons li{
+.footer .footer-social-icons .social-icons li {
   padding: 0px 20px 0px 20px;
 }
 
 .footer .copyright {
   text-align: center;
-  width: 33%;
 }
 
 .footer .contact {
   text-align: end;
-  width: 33%;
 }

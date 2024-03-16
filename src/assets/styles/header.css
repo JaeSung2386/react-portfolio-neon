@@ -44,7 +44,6 @@ nav {
   width: 60px;
 }
 
-
 .menu-hambuger::before {
   content: '';
   position: absolute;
@@ -100,8 +99,8 @@ nav {
 
 .container {
   width: 768px;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   margin-left: auto;
   margin-right: auto;
 }
