@@ -1,0 +1,105 @@
+/**********************************/
+/********* Timeline 1 CSS *********/
+/**********************************/
+
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background: #222222;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.container1 {
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width: 50%;
+}
+
+.container1.left {
+  left: 0;
+}
+
+.container1.right {
+  left: 50%;
+}
+
+.container1 .date {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  top: 15px;
+  right: -30px;
+  padding: 4px 0;
+  background: #222222;
+  text-align: center;
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.container1.right .date {
+  left: -30px;
+}
+
+.container1 .date span {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container1 .content {
+  padding: 30px;
+  background: #ffffff;
+  position: relative;
+}
+
+.container1 .content h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: #222222;
+}
+
+.container1 .content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: #666666;
+}
+
+@media (max-width: 767.98px) {
+  .timeline::after {
+    left: 60px;
+  }
+
+  .container1 {
+    width: 100%;
+    padding-left: 90px;
+    padding-right: 30px;
+  }
+
+  .container1.right {
+    left: 0%;
+  }
+
+  .container1.left .date,
+  .container1.right .date {
+    left: 30px;
+  }
+}
