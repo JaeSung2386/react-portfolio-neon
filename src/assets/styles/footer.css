@@ -28,6 +28,14 @@ a {
   transition: all 0.2s ease-in;
 }
 
+.footer .copyright {
+  text-align: center;
+  width: 33%;
+}
+
+.footer .footer-social-icons {
+  width: 33%;
+}
 
 .footer .footer-social-icons .social-icons {
   display: flex;
@@ -38,10 +46,27 @@ a {
   padding: 0px 20px 0px 20px;
 }
 
-.footer .copyright {
-  text-align: center;
-}
+@media all and (max-width: 1024px) {
+  .footer {
+    width: 100%;
+    background: black;
+    border-top: 1px solid #0ef;
+    height: 100%;
+    font-family: "Share Tech Mono", monospace;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 10px;
+    list-style: none;
+  }
 
-.footer .contact {
-  text-align: end;
+  .footer .copyright {
+    text-align: center;
+    width: 100%;
+  }
+
+  .footer .footer-social-icons {
+    width: 100%;
+  }
 }
