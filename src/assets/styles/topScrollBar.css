@@ -1,4 +1,5 @@
 .top-bar {
+  border-radius: 5px;
   width: 0vw;
   height: 3px;
   transition: all linear .2s;

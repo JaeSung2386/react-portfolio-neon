@@ -7,10 +7,9 @@ import Profile_Main from '../../assets/imgs/profile_main.jpg';
 import Icon from '../Icon';
 import {
   faHouse,
-  faTimeline,
+  faBusinessTime,
   faCode,
-  faBlog,
-  faBlogggerB
+  faPenToSquare
 } from "@fortawesome/free-solid-svg-icons";
 
 const index = () => {
@@ -82,9 +81,9 @@ const index = () => {
                 gap: "50px"
           }}>
             <Icon icon={faHouse} />
-            <Icon icon={faTimeline} />
+            <Icon icon={faBusinessTime} />
             <Icon icon={faCode} />
-            <Icon icon={faCode} />
+            <Icon icon={faPenToSquare} />
           </div>
         </div>
       </div>

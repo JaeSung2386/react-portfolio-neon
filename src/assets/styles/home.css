@@ -1,5 +1,6 @@
 .home {
   height: 100vh;
+  padding : 3rem 0 3rem 0;
 }
 
 .home-intro {
@@ -21,10 +22,11 @@
 }
 
 .home-description h1,h2,h3 {
+  font-weight: bold;
   color: #fff;
   padding: 10px 0px 10px 0px;
   line-height: 1.5;
-  font-weight: 150;
+  font-weight: 400;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;

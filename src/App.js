@@ -14,7 +14,9 @@ import Skills from './components/Skills';
 
 function App() {
   return (
-    <div className="app">
+    <div className="app" style={{
+      overflowY: 'scroll'
+    }}>
       <TopScrollBar />
       {/* Header Start */}
       <Header />
