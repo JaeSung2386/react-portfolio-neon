@@ -24,7 +24,7 @@ const index = () => {
   return (
     <div>
     <div className="home-description">
-      <h1>실무 경험</h1>
+      <h1>실무 역량</h1>
     </div>
       <div className="box">
         <div style={{

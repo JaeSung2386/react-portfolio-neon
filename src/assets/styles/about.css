@@ -1,0 +1,25 @@
+.about-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-description h2 {
+  color: #fff;
+  padding: 10px 0px 10px 0px;
+  line-height: 1.5;
+  font-weight: 150;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  font-family: "Share Tech Mono", monospace;
+}
+  
+.about-description h2:hover {
+  color: #0ef;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}

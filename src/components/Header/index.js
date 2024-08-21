@@ -19,7 +19,7 @@ const Index = () => {
       <nav>
         <div className="logo">
           <a href="index.html">
-            <h1>Dev_guitar</h1>
+            <h1>Dev_Story</h1>
           </a>
         </div>
         {

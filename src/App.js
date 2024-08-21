@@ -6,6 +6,7 @@ import './assets/styles/text.css';
 import TopScrollBar from "./components/TopScrollBar";
 import Header from './components/Header';
 import Home from './components/Home';
+import About from './components/About';
 import Work from './components/Work';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
@@ -25,28 +26,6 @@ function App() {
         <Home />
       </div>
       {/* Home End */}
-
-      <div className="container">
-        <Line />
-      </div>
-
-      {/* About Start */}
-      <div className="container">
-        <div className="home">
-          <div>
-            <h1>안녕하세요.</h1>
-            <h1>FrontEnd 개발자 강재성입니다.</h1>
-            <h2>네온 스타일을 곁들인 개인 포트폴리오 사이트입니다.</h2>
-          </div>
-
-          <div className="home-profile">
-            <img
-              className="img-profile"
-            />
-          </div>
-        </div>
-      </div>
-      {/* About End */}
 
       <div className="container">
         <Line />
