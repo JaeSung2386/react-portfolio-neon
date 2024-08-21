@@ -14,3 +14,7 @@ body {
   flex-direction: column;
   background-color: black;
 }
+
+.app {
+  min-width: 1340px;
+}

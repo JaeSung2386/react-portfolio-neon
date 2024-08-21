@@ -39,11 +39,6 @@ const Index = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#about">
-                        <h1>About</h1>
-                      </a>
-                    </li>
-                    <li>
                       <a href="#work">
                         <h1>Work</h1>
                       </a>
@@ -69,11 +64,6 @@ const Index = () => {
               <li>
                 <a href="#">
                   Home
-                </a>
-              </li>
-              <li>
-                <a href="#about">
-                  About
                 </a>
               </li>
               <li>

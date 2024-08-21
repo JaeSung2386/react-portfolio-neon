@@ -6,7 +6,6 @@ import './assets/styles/text.css';
 import TopScrollBar from "./components/TopScrollBar";
 import Header from './components/Header';
 import Home from './components/Home';
-import About from './components/About';
 import Work from './components/Work';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
@@ -15,7 +14,7 @@ import Skills from './components/Skills';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <TopScrollBar />
       {/* Header Start */}
       <Header />
@@ -24,38 +23,14 @@ function App() {
       {/* Home Start */}
       <div className="container">
         <Home />
+        {/* <Line />
+        <Work />
+        <Line />
+        <Skills />
+        <Line />
+        <Blog /> */}
       </div>
       {/* Home End */}
-
-      <div className="container">
-        <Line />
-      </div>
-
-      {/* Work Start */}
-      <div className="container">
-        <Work />
-      </div>
-      {/* Work End */}
-
-      <div className="container">
-        <Line />
-      </div>
-
-      {/* Skils Start */}
-      <div className="container">
-        <Skills />
-      </div>
-      {/* Skils End */}
-
-      <div className="container">
-        <Line />
-      </div>
-
-      {/* Blog Start */}
-      <div className="container">
-        <Blog />
-      </div>
-      {/* Blog End */}
 
       {/* Footer Start */}
       < Footer />
