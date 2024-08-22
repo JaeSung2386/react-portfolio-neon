@@ -25,12 +25,12 @@ function App() {
       {/* Home Start */}
       <div className="container">
         <Home />
-        {/* <Line />
+        <Line />
         <Work />
         <Line />
         <Skills />
         <Line />
-        <Blog /> */}
+        <Blog />
       </div>
       {/* Home End */}
 
